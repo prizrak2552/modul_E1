@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: rgb(220, 14, 14);
+    background-color: #101010;
+}
+
+.logo-nav{
+    display: flex;
+    padding-left: 10px;
+}
+
+.logo{
+    display: block;
+    float: right;
+
+    padding-left: 30px
+}
+
+.navigation a{
+    
+    float: left;
+    padding: 15px 40px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    float: right;
+    vertical-align: middle;
+    display: table-cell;
+
+}
+
+.navigation a:hover{
+    background-color: rgb(15, 239, 64);
+    color: #101010;
+}
+
+body{
+    color: black;
+    background-color: aqua;
+}
+
+.content_body{
+    padding-left: 8%;
+}
+
+.content{
+    text-align: justify;
+    padding-right: 100px
+}
+
+.content img{
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 350px;
+    height: 350px;
+}
+
+.contact{
+ 
+    color: #101010;
+}
